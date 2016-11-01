@@ -11,16 +11,26 @@
     tools:context="id.sch.smktelkom_mlg.learn.intent1.MainActivity"
     android:orientation="vertical">
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:id="@+id/editTextNama"
+        android:ems="10"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Umur"
+        android:id="@+id/editTextUmur"
+        android:ems="10"
+        android:inputType="numberSigned"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hitung"
-        android:id="@+id/buttonHitung"
-        android:layout_gravity="center_vertical" />
-
-    <TextView
-        android:text="Hello World!"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:id="@+id/buttonHitung" />
 
 </LinearLayout>
